@@ -6,6 +6,8 @@ public class Object_Main {
 
     public static void main(String[] args) {
         
+        //direct shows output in new class...
+        
         System.out.print("Firstly Random change of velocity is 20 m/s and" + System.lineSeparator()
                 + "random time change is 5 s." + System.lineSeparator()
                 + "Then Acceleration of the particle: ");
@@ -15,6 +17,8 @@ public class Object_Main {
         Scanner input = new Scanner(System.in);
         
         int initial_v, final_v, time;
+        
+        //taking input from user...
         
         System.out.print("Secondly we wanna take values from user..." + System.lineSeparator() + 
                 "Initial velocity: ");
