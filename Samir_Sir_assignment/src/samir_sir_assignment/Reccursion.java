@@ -24,7 +24,7 @@ public class Reccursion {
         int n = input.nextInt();
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Fib[" + (i+1) + "] = " + Fib(i) + System.lineSeparator());
+            System.out.print("Fib[" + (i + 1) + "] = " + Fib(i) + System.lineSeparator());
         }
         System.lineSeparator();
     }
